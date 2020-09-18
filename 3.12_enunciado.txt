@@ -1,0 +1,20 @@
+Deitel C++ 5th edicao
+
+3.12 (Classe Account)
+[OK] - Crie uma classe chamada Account que um banco poderia utilizar para representar contas bancárias dos clientes.
+[OK] Sua classe deve incluir um membro de dados de tipo int para representar o saldo da conta.
+
+[Nota:Nos capítulos subsequentes, utilizaremos números que contêm pontos de fração decimal (por exemplo, 2,75) - chamados valores de ponto flutuante - para representar quantias em dólar.]
+
+A classe deve fornecer três funções-membro. 
+[OK] A função-membro credit deve adicionar uma quantia ao saldo atual. 
+
+[OK] A função-membro debit deve retirar o dinheiro de Account e assegurar que a quantia de débito não exceda o saldo de Account. Se exceder, o saldo deve permacener inalterado e a função deve imprimir uma mensagem que indica "Debit amout exceeded account balance." 
+
+[OK]A função-membro getBalance deve retornar o saldo atual. 
+
+[OK]Crie um programa que cria dois objetos Account e testa as funções-membro da classe Account.
+
+[OK]Sua classe deve fornecer um construtor que recebe um saldo inicial e o utiliza para iniciar o membro de dados. 
+[OK]O construtor deve validar o saldo inicial para assegurar que ele seja maior que ou igual a 0. 
+[OK]Se não, o saldo deve ser configurado como 0 e o construtor deve exibir uma mensagem de erro, indicando que o saldo inicial era inválido.
